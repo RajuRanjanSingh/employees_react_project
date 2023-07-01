@@ -1,0 +1,85 @@
+.leave-form {
+  max-width: 350px;
+  margin:  auto;
+  padding: 25px;
+  background-color: #dedee2;
+  border: 3px solid #684747;
+  border-radius: 4px;
+}
+.leave-form h2{
+  margin-top:10px;
+  text-align:center;
+}
+
+.leave-form label {
+ display: block;
+  font-weight:Bold;
+  margin-bottom: 9px;
+}
+
+.leave-form input[type="text"],
+.leave-form input[type="date"],
+.leave-form select {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.leave-form input[type="radio"],
+.leave-form input[type="file"] {
+  margin-right: 10px;
+}
+
+.leave-form button[type="submit"] {
+  background-color: #39516873;
+  color: rgb(124, 30, 30);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-container table, th, td{
+ 
+  border:1px solid black;
+}
+
+tbody td{
+  font-size: small;
+}
+.table-container table{
+  width: 94.5rem;
+  border-collapse: collapse;
+}
+
+
+
+.table-container th,td {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table-container tbody tr{
+  background-color: #f9f9f9;
+  width: 300px;
+}
+
+.table-container tbody tr:hover {
+  background-color: #eaeaea;
+  width:300px;
+}
+.table-container button{
+  background-color: #39516873;
+  color: rgb(124, 30, 30);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
